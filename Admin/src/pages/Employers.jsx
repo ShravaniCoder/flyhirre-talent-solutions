@@ -1,0 +1,5 @@
+import React from "react";
+import { formatDate } from "../utils";
+
+export default function Employers({data,onSelect}){return <section className="content"><div className="table-panel"><table><thead><tr><th>Company</th><th>Contact</th><th>Requirement</th><th>Submitted</th><th>Verification</th><th></th></tr></thead><tbody>{data.map(x=><tr key={x._id}><td><strong>{x.companyName}</strong><small>{x.industry||"—"}</small></td><td>{x.fullName}<small>{x.workEmail}<br/>{x.phone}</small></td><td>{x.hiringFunction||"—"}<small>{x.numberOfPositions} position(s)</small></td><td>{formatDate(x.createdAt)}</td><td><Badge value={x.verificationStatus}/></td><td><button className="view-btn" onClick={()=>onSelect(x)}>Review</button></td></tr>)}</tbody></table>{!data.length&&<div className="empty">No employer records match your search.</div>}</div></section>}
+function Badge({value}){return <span className={`badge ${String(value).toLowerCase().replaceAll("_","-")}`}>{String(value).replaceAll("_"," ")}</span>}

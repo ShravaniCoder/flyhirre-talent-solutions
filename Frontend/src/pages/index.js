@@ -1,0 +1,10 @@
+export { Home } from "./Home";
+export { About } from "./About";
+export { Solutions } from "./Solutions";
+export { Industries } from "./Industries";
+export { Functions } from "./Functions";
+export { Employers } from "./Employers";
+export { Candidates } from "./Candidates";
+export { Process } from "./Process";
+export { India } from "./India";
+export { Contact } from "./Contact";
