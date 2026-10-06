@@ -1481,18 +1481,10 @@ p{text-wrap:pretty}
 
 /* ---------- Hero ---------- */
 .hero{position:relative;overflow:hidden;isolation:isolate}
-.hero:before{
-  content:"";position:absolute;z-index:-1;right:-140px;top:50%;
-  width:560px;height:560px;margin-top:-280px;border-radius:50%;
-  border:1px solid rgba(200,169,107,.28);
-  box-shadow:inset 0 0 0 36px rgba(200,169,107,.04),0 0 0 70px rgba(200,169,107,.035);
-  animation:orbit 26s linear infinite
-}
 .hero:after{
   content:"";position:absolute;z-index:-1;left:0;right:0;bottom:0;height:140px;
   background:linear-gradient(to top,rgba(7,17,31,.55),transparent)
 }
-@keyframes orbit{to{transform:rotate(360deg) scale(1.04)}}
 
 .hero-content>*{animation:rise .9s var(--ease) both}
 .hero-content>:nth-child(1){animation-delay:.10s}
@@ -1752,7 +1744,6 @@ p{text-wrap:pretty}
   .faq-item button{font-size:18px;padding:20px 0}
   .faq-a p{padding-right:10px}
   .hero{min-height:620px}
-  .hero:before{width:380px;height:380px;margin-top:-190px;right:-190px}
   .scroll-cue{right:14px;bottom:18px}
   .scroll-cue span{display:none}
   .hero-pills{align-items:flex-start}
@@ -1804,7 +1795,7 @@ p{text-wrap:pretty}
 /* Respect reduced motion for the new animations */
 @media(prefers-reduced-motion:reduce){
   .reveal{opacity:1!important;transform:none!important}
-  .marquee-track,.hero:before,.india-map,.scroll-cue i:after{animation:none!important}
+  .marquee-track,.india-map,.scroll-cue i:after{animation:none!important}
   .hero-content>*,.page,.scroll-cue{animation:none!important}
 }
 
@@ -1817,3 +1808,42 @@ p{text-wrap:pretty}
 .light-panel h2{color:var(--navy)}
 .light-panel .actions{margin-top:22px}
 @media(max-width:800px){.hero:has(+ .stats-wrap.overlap) .scroll-cue{display:none}}
+
+/* Odd last city (9 cities) spans the full row so the grid stays balanced */
+.city-list span:last-child:nth-child(odd){grid-column:1/-1}
+
+/* India page: cities in one line, separated by | */
+.city-list{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:10px 0;
+  margin-top:30px;
+}
+.city-list span{
+  background:none;
+  border:0;
+  padding:0 34px 0 0;
+  position:relative;
+  font-family:"Playfair Display",serif;
+  font-size:22px;
+  color:var(--navy);
+  transition:color .25s;
+}
+.city-list span:not(:last-child):after{
+  content:"|";
+  position:absolute;
+  right:12px;
+  top:50%;
+  transform:translateY(-52%);
+  color:var(--gold);
+  font-family:"DM Sans",Arial,sans-serif;
+  font-weight:300;
+}
+.city-list span:last-child{padding-right:0}
+.city-list span:hover{color:#8b7042;transform:none;border:0}
+
+@media(max-width:480px){
+  .city-list span{font-size:18px;padding-right:28px}
+  .city-list span:not(:last-child):after{right:9px}
+}

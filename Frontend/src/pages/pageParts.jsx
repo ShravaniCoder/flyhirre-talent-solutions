@@ -4,7 +4,8 @@ import SectionHeading from "../components/SectionHeading";
 import { FUNCTIONS, PROCESS } from "../data/siteData";
 import { scrollToId } from "../utils/scroll";
 
-const heroImg="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1800&q=90";
+
+const heroImg="/images/H1.png";
 
 export function Hero({eyebrow="RECRUITMENT & TALENT SOLUTIONS | INDIA & INTERNATIONAL", title, text, image=heroImg, children}) {
   const ref = useRef(null);
