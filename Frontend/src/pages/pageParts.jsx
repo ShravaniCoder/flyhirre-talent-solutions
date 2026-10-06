@@ -1,13 +1,22 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import SectionHeading from "../components/SectionHeading";
 import { FUNCTIONS, PROCESS } from "../data/siteData";
+import { scrollToId } from "../utils/scroll";
 
 const heroImg="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1800&q=90";
 
 export function Hero({eyebrow="RECRUITMENT & TALENT SOLUTIONS | INDIA & INTERNATIONAL", title, text, image=heroImg, children}) {
-  return <section className="hero" style={{backgroundImage:`linear-gradient(90deg,rgba(7,17,31,.97) 0%,rgba(7,17,31,.82) 48%,rgba(7,17,31,.2) 100%),url(${image})`}}>
+  const ref = useRef(null);
+  const next = () => {
+    const el = ref.current && ref.current.nextElementSibling;
+    if (!el) return;
+    if (!el.id) el.id = "after-hero";
+    scrollToId(el.id);
+  };
+  return <section ref={ref} className="hero" style={{backgroundImage:`linear-gradient(90deg,rgba(7,17,31,.97) 0%,rgba(7,17,31,.82) 48%,rgba(7,17,31,.2) 100%),url(${image})`}}>
     <div className="container hero-content"><span className="eyebrow">{eyebrow}</span><h1>{title}</h1><p>{text}</p>{children}</div>
+    <button type="button" className="scroll-cue" onClick={next} aria-label="Scroll down"><i /><span>Scroll</span></button>
   </section>;
 }
 

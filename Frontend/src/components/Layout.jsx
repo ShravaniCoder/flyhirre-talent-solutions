@@ -1,20 +1,62 @@
-import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { COMPANY, NAV_ITEMS } from "../data/siteData";
+import ScrollManager from "./ScrollManager";
+import AnimationManager from "./AnimationManager";
 
 export default function Layout({ children }) {
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [showTop, setShowTop] = useState(false);
+  const { pathname } = useLocation();
 
   const closeMenu = () => {
     setOpen(false);
   };
 
+  // Header state, scroll progress bar and back-to-top visibility
+  useEffect(() => {
+    let raf = 0;
+    const onScroll = () => {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(() => {
+        const y = window.scrollY;
+        const max = document.documentElement.scrollHeight - window.innerHeight;
+        document.documentElement.style.setProperty("--progress", max > 0 ? String(y / max) : "0");
+        setScrolled(y > 12);
+        setShowTop(y > 600);
+      });
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+      cancelAnimationFrame(raf);
+    };
+  }, []);
+
+  // Lock page scroll while the mobile menu is open; close with Escape
+  useEffect(() => {
+    document.documentElement.classList.toggle("menu-open", open);
+    const onKey = (e) => e.key === "Escape" && setOpen(false);
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open]);
+
+  // Close the menu whenever the page changes
+  useEffect(() => { setOpen(false); }, [pathname]);
+
   return (
     <div className="site">
+      <ScrollManager />
+      <AnimationManager />
+      <div className="scroll-progress" aria-hidden="true" />
       {/* =========================
           HEADER / NAVBAR
           ========================= */}
-      <header className="header">
+      <header className={`header ${scrolled ? "scrolled" : ""}`}>
         <div className="container nav">
           {/* Logo */}
           <Link
@@ -32,7 +74,7 @@ export default function Layout({ children }) {
 
           {/* Mobile Menu Button */}
           <button
-            className="menu-btn"
+            className={`menu-btn ${open ? "open" : ""}`}
             type="button"
             aria-label={open ? "Close navigation" : "Open navigation"}
             aria-expanded={open}
@@ -74,7 +116,7 @@ export default function Layout({ children }) {
       {/* =========================
           MAIN CONTENT
           ========================= */}
-      <main>{children}</main>
+      <main key={pathname} className="page">{children}</main>
 
       {/* =========================
           FOOTER
@@ -123,6 +165,14 @@ export default function Layout({ children }) {
 
             <Link to="/corporate-functions">
               Functions
+            </Link>
+
+            <Link to="/recruitment-process">
+              Process
+            </Link>
+
+            <Link to="/india-coverage">
+              India Coverage
             </Link>
           </div>
 
@@ -176,6 +226,15 @@ export default function Layout({ children }) {
           </span>
         </div>
       </footer>
+
+      <button
+        type="button"
+        className={`back-top ${showTop ? "show" : ""}`}
+        aria-label="Back to top"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      >
+        ↑
+      </button>
     </div>
   );
 }
