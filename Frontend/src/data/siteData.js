@@ -71,43 +71,43 @@ export const PROCESS = [
 
 export const SEO = {
   home: {
-    title: "NEXORA Talent Solutions | Recruitment & Talent Solutions",
-    description: "NEXORA Talent Solutions connects employers and professionals through permanent and freelance recruitment across Travel, Hospitality, Aviation, Events and Communications.",
+    title: "Flyhirre Recruitment & Talent Solutions | Recruitment & Talent Solutions",
+    description: "Flyhirre Recruitment & Talent Solutions connects employers and professionals through permanent and freelance recruitment across Travel, Hospitality, Aviation, Events and Communications.",
   },
   about: {
-    title: "About NEXORA Talent Solutions | Mumbai Recruitment Company",
+    title: "About Flyhirre Recruitment & Talent Solutions | Mumbai Recruitment Company",
     description: "Learn about our people-first recruitment approach, industries, values and talent solutions from our Mumbai-based team.",
   },
   solutions: {
     title: "Recruitment Solutions | Permanent & Freelance Recruitment",
-    description: "Explore NEXORA permanent recruitment, freelance recruitment, candidate sourcing, screening, shortlisting and corporate recruitment solutions.",
+    description: "Explore Flyhirre permanent recruitment, freelance recruitment, candidate sourcing, screening, shortlisting and corporate recruitment solutions.",
   },
   industries: {
-    title: "Industries We Serve | NEXORA Talent Solutions",
+    title: "Industries We Serve | Flyhirre Recruitment & Talent Solutions",
     description: "Recruitment across Travel & Tourism, Hospitality, Aviation, Events, PR and Corporate Communications.",
   },
   functions: {
-    title: "Corporate Functions | NEXORA Talent Solutions",
+    title: "Corporate Functions | Flyhirre Recruitment & Talent Solutions",
     description: "Recruitment across Sales, Marketing, HR, Operations, Finance, Administration, Customer Experience and Management.",
   },
   employers: {
-    title: "For Employers | Hire Talent | NEXORA Talent Solutions",
+    title: "For Employers | Hire Talent | Flyhirre Recruitment & Talent Solutions",
     description: "Submit your hiring requirement and work with our recruitment team to identify relevant professionals.",
   },
   candidates: {
-    title: "For Candidates | Submit Your CV | NEXORA Talent Solutions",
+    title: "For Candidates | Submit Your CV | Flyhirre Recruitment & Talent Solutions",
     description: "Submit your CV and explore permanent and freelance opportunities across specialist industries and functions.",
   },
   process: {
-    title: "Recruitment Process | NEXORA Talent Solutions",
+    title: "Recruitment Process | Flyhirre Recruitment & Talent Solutions",
     description: "Understand our structured recruitment process from vacancy received to candidate selection and joining.",
   },
   india: {
-    title: "India Coverage | Mumbai-Based Recruitment | NEXORA",
-    description: "NEXORA Talent Solutions is Mumbai-based and supports employers and professionals across India.",
+    title: "India Coverage | Mumbai-Based Recruitment | Flyhirre Recruitment & Talent Solutions",
+    description: "Flyhirre Recruitment & Talent Solutions is Mumbai-based and supports employers and professionals across India.",
   },
   contact: {
-    title: "Contact NEXORA Talent Solutions | Mumbai",
+    title: "Contact Flyhirre Recruitment & Talent Solutions | Mumbai",
     description: "Contact our recruitment team for employer enquiries, candidate registration and talent solutions.",
   },
 };
