@@ -61,7 +61,7 @@ export function EmployerForm() {
     <FileField label="Company Registration / Incorporation Certificate" name="incorporationDocument" accept=".pdf,.jpg,.jpeg,.png,.webp" hint="PDF, JPG, PNG or WEBP. Maximum 10 MB." files={documents.incorporationDocument} onChange={(e) => pickDocument("incorporationDocument", e.target.files)} />
     <FileField label="GST Certificate" name="gstDocument" accept=".pdf,.jpg,.jpeg,.png,.webp" hint="Optional · Maximum 10 MB." files={documents.gstDocument} onChange={(e) => pickDocument("gstDocument", e.target.files)} />
     <FileField label="Company PAN" name="panDocument" accept=".pdf,.jpg,.jpeg,.png,.webp" hint="Optional · Maximum 10 MB." files={documents.panDocument} onChange={(e) => pickDocument("panDocument", e.target.files)} />
-    <FileField label="Authorisation / Other Company Document" name="authorizationDocument" accept=".pdf,.jpg,.jpeg,.png,.webp" hint="Optional · Maximum 10 MB." files={documents.authorizationDocument} onChange={(e) => pickDocument("authorizationDocument", e.target.files)} />
+    <FileField label="Authorisation Letter" name="authorizationDocument" accept=".pdf,.jpg,.jpeg,.png,.webp" hint="Optional · Maximum 10 MB." files={documents.authorizationDocument} onChange={(e) => pickDocument("authorizationDocument", e.target.files)} />
     {error && <div className="form-error full">{error}</div>}
     <button className="btn gold full" type="submit" disabled={loading}>{loading ? "Submitting..." : "Submit Hiring Requirement"} <span>→</span></button>
   </form>;

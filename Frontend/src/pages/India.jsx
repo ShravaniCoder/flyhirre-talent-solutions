@@ -12,11 +12,7 @@ const CITIES = [
   "Delhi NCR",
   "Bengaluru",
   "Goa",
-  "Hyderabad",
-  "Pune",
-  "Chennai",
-  "Kolkata",
-  "Ahmedabad",
+ 
 ];
 
 export function India() {
@@ -27,7 +23,7 @@ export function India() {
       <Hero
         title="Mumbai-Based. Serving Across India."
         text="We are based in Mumbai and support employers and professionals across India, depending on the role and recruitment requirement."
-        image="/images/M1.png"
+        image="/images/Mum.jpeg"
       />
 
       <section className="section cream">

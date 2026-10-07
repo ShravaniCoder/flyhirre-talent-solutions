@@ -1,7 +1,8 @@
 import Event from "/images/Event.png";
-import Resort from "/images/Resort.png"
+import Resort from "/images/Hosp.jpeg"
 import PRCo from "/images/PR.png"
 import Travel from "/images/Travel.png"
+import Aviation from "/images/Avi.jpeg"
 
 export const COMPANY = {
   name: "Flyhirre Recruitment & Talent Solutions",
@@ -40,7 +41,7 @@ export const INDUSTRIES = [
   {
     title: "Aviation",
     desc: "Talent solutions for relevant aviation, customer experience, commercial and support functions.",
-    image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1200&q=85",
+    image: Aviation,
   },
   {
     title: "Events",
