@@ -9,6 +9,8 @@ import { Hero, IndustryCard, Solution, FunctionGrid, ProcessSection } from "./pa
 import { StatsBand, Marquee, WhyGrid, MissionVision, FAQ, Compare, RolesGrid, NextSteps } from "../components/Extras";
 import ScrollLink from "../components/ScrollLink";
 import * as D from "../data/siteData";
+import Office from "/images/Office.png"
+import Free from "/images/Free1.png"
 
 export function Home(){
  return <><SEO {...SEO_DATA.home}/><Hero title="Connecting Exceptional Talent with Ambitious Businesses." text="We connect businesses with talented professionals through focused recruitment solutions across Travel & Tourism, Hospitality, Aviation, Events, PR and Corporate Communications.">
@@ -17,7 +19,7 @@ export function Home(){
  </Hero>
  <StatsBand overlap items={D.STATS}/>
  <section className="section cream"><div className="container"><SectionHeading eyebrow="SPECIALIST INDUSTRIES" title="Talent Across High-Impact Industries" text="Our team understands the people and functions behind service-led, communication-driven industries."/><div className="industry-grid">{INDUSTRIES.map(x=><IndustryCard key={x.title} {...x}/>)}</div></div></section>
- <section className="section navy"><div className="container"><SectionHeading light eyebrow="OUR SOLUTIONS" title="Recruitment & Talent Solutions" text="Flexible and future-ready hiring support for today's changing business needs."/><div className="solution-grid"><Solution title="Permanent Recruitment" text="Building long-term teams with relevant talent, expertise and cultural alignment." bullets={["Executive & Management Hiring","Mid-Level Professionals","Specialist Recruitment","Corporate Functions"]} image="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1000&q=85" link="/recruitment-solutions"/><Solution title="Freelance Recruitment" text="Flexible access to skilled professionals for projects, assignments and evolving requirements." bullets={["Contract Professionals","Project-Based Specialists","Temporary Assignments","Short-Term Requirements"]} image="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1000&q=85" link="/recruitment-solutions"/></div></div></section>
+ <section className="section navy"><div className="container"><SectionHeading light eyebrow="OUR SOLUTIONS" title="Recruitment & Talent Solutions" text="Flexible and future-ready hiring support for today's changing business needs."/><div className="solution-grid"><Solution title="Permanent Recruitment" text="Building long-term teams with relevant talent, expertise and cultural alignment." bullets={["Executive & Management Hiring","Mid-Level Professionals","Specialist Recruitment","Corporate Functions"]} image={Office} link="/recruitment-solutions"/><Solution title="Freelance Recruitment" text="Flexible access to skilled professionals for projects, assignments and evolving requirements." bullets={["Contract Professionals","Project-Based Specialists","Temporary Assignments","Short-Term Requirements"]} image={Free} link="/recruitment-solutions"/></div></div></section>
  <section className="section cream"><div className="container"><SectionHeading eyebrow="FUNCTIONAL EXPERTISE" title="Expertise Across Every Business Function" text="We connect businesses with professionals across the functions that keep organisations moving."/><FunctionGrid/></div></section>
  <WhyGrid eyebrow="WHY FLYHIRRE" title="A recruitment partner that listens first." text="What you can expect when you work with our team." items={D.WHY_US}/>
  <ProcessSection/>

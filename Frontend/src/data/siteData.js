@@ -1,3 +1,6 @@
+import Event from "/images/Event.png";
+import Resort from "/images/Resort.png"
+
 export const COMPANY = {
   name: "Flyhirre Recruitment & Talent Solutions",
   shortName: "Flyhirre",
@@ -30,7 +33,7 @@ export const INDUSTRIES = [
   {
     title: "Hospitality",
     desc: "People-focused hiring across hotels, resorts, hospitality operations and guest experience.",
-    image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+    image: Resort,
   },
   {
     title: "Aviation",
@@ -40,7 +43,7 @@ export const INDUSTRIES = [
   {
     title: "Events",
     desc: "Professionals across event operations, production, client servicing, sales and management.",
-    image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=85",
+    image: Event,
   },
   {
     title: "PR & Corporate Communications",
