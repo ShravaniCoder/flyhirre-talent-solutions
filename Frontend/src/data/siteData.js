@@ -56,21 +56,21 @@ export const INDUSTRIES = [
 ];
 
 export const FUNCTIONS = [
-  ["Sales & Business Development", "Commercial professionals who build relationships and opportunities."],
-  ["Marketing", "Brand, digital, content, performance and marketing management talent."],
-  ["Human Resources", "Talent acquisition, HR operations, people and culture professionals."],
-  ["Operations", "Service delivery, process management, coordination and operational leadership."],
-  ["Finance & Accounts", "Accounting, reporting, finance operations and commercial finance roles."],
-  ["Administration", "Business support, coordination, executive assistance and administration."],
-  ["Customer Experience", "Customer service, guest experience and relationship management."],
-  ["Management & Leadership", "Managers, department heads and senior professionals."],
+  ["Sales & Business Development", "Commercial professionals who build relationships and opportunities with our team at Flyhirre."],
+  ["Marketing", "Brand, digital, content, performance and marketing management talent soueced by our team."],
+  ["Human Resources", "Talent acquisition, HR operations, people and culture professionals identified by Flyhirre."],
+  ["Operations", "Service delivery, process management, coordination and operational leadership supported by our team. "],
+  ["Finance & Accounts", "Accounting, reporting, finance operations and commercial finance roles supported through Flyhirre."],
+  ["Administration", "Flyhirre support businesses with business support, coordination, executive assistance and administration."],
+  ["Customer Experience", "We connect organisations with Customer service, guest experience and relationship management."],
+  ["Management & Leadership", "Through Flyhirre, buinesses can access Managers, department heads and senior professionals."],
 ];
 
 export const PROCESS = [
   ["01", "Vacancy Received", "We understand the role, requirement, expectations and hiring timeline."],
   ["02", "Candidate Sourcing", "Our team identifies professionals who may align with the requirement."],
   ["03", "Screening", "We review experience, skills, availability and agreed criteria."],
-  ["04", "Shortlisting", "Relevant profiles are shortlisted for employer consideration."],
+  ["04", "Shortlisting", "Relevant profiles are shortlisted by our team for employer consideration."],
   ["05", "Employer Interview", "We coordinate the next stage between employer and candidate."],
   ["06", "Selection & Joining", "The employer selects the candidate and we support the next steps."],
 ];
@@ -132,9 +132,9 @@ export const STATS = [
 
 export const WHY_US = [
   { icon: "target", title: "Industry Focus", text: "We concentrate on travel, hospitality, aviation, events and communications, so briefs are understood quickly." },
-  { icon: "users", title: "People-First Approach", text: "Every candidate and every employer is treated as a conversation, not a database entry." },
-  { icon: "shield", title: "Careful Screening", text: "Experience, skills, availability and agreed criteria are reviewed before any profile is shared." },
-  { icon: "globe", title: "India", text: "A Mumbai base with an international outlook for roles that cross borders and markets." },
+  { icon: "users", title: "People-First Approach", text: "Every candidate and every employer is treated by our team as a conversation, not a database entry." },
+  { icon: "shield", title: "Careful Screening", text: "At Flyhirre, Experience, skills, availability and agreed criteria are reviewed before any profile is shared." },
+  { icon: "globe", title: "India", text: "A Flyhirre based across Mumbai, Benglore, Goa and Delhi, with an international outlook for roles that cross borders and markets." },
    { icon: "briefcase", title: "Flexible Engagement", text: "Permanent, freelance and project-based hiring to match how your business actually works." },
   { icon: "clock", title: "Clear Communication", text: "Regular updates at each stage so employers and candidates always know where things stand." },
 
@@ -199,8 +199,8 @@ export const COMPARE = {
 
 export const NEXT_STEPS = [
   { n: "1", title: "We Review", text: "Our team reads your message and understands what you need." },
-  { n: "2", title: "We Respond", text: "A recruitment specialist gets in touch to discuss next steps." },
-  { n: "3", title: "We Connect", text: "Employers get relevant profiles; candidates hear about suitable roles." },
+  { n: "2", title: "We Respond", text: "A Flyhirre recruitment specialist gets in touch to discuss next steps." },
+  { n: "3", title: "We Connect", text: "Our team connects employers get relevant profiles; candidates hear about suitable roles." },
 ];
 
 export const FAQS = {
