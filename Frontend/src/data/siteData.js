@@ -1,10 +1,12 @@
 import Event from "/images/Event.png";
 import Resort from "/images/Resort.png"
+import PRCo from "/images/PR.png"
+import Travel from "/images/Travel.png"
 
 export const COMPANY = {
   name: "Flyhirre Recruitment & Talent Solutions",
   shortName: "Flyhirre",
-  tagline: "Recruitment & Talent Solutions | India & International",
+  tagline: "Recruitment & Talent Solutions | India ",
   email: "hello@nexoratalentsolutions.com",
   phone: "+91 90000 00000",
   whatsapp: "919000000000",
@@ -28,7 +30,7 @@ export const INDUSTRIES = [
   {
     title: "Travel & Tourism",
     desc: "Recruitment support for travel businesses, tour operators, destination services and corporate travel teams.",
-    image: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=85",
+    image: Travel,
   },
   {
     title: "Hospitality",
@@ -48,7 +50,7 @@ export const INDUSTRIES = [
   {
     title: "PR & Corporate Communications",
     desc: "Recruitment for communications, public relations, content, media and corporate affairs.",
-    image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=85",
+    image: PRCo,
   },
 ];
 
@@ -131,9 +133,10 @@ export const WHY_US = [
   { icon: "target", title: "Industry Focus", text: "We concentrate on travel, hospitality, aviation, events and communications, so briefs are understood quickly." },
   { icon: "users", title: "People-First Approach", text: "Every candidate and every employer is treated as a conversation, not a database entry." },
   { icon: "shield", title: "Careful Screening", text: "Experience, skills, availability and agreed criteria are reviewed before any profile is shared." },
-  { icon: "globe", title: "India & International", text: "A Mumbai base with an international outlook for roles that cross borders and markets." },
+  { icon: "globe", title: "India", text: "A Mumbai base with an international outlook for roles that cross borders and markets." },
+   { icon: "briefcase", title: "Flexible Engagement", text: "Permanent, freelance and project-based hiring to match how your business actually works." },
   { icon: "clock", title: "Clear Communication", text: "Regular updates at each stage so employers and candidates always know where things stand." },
-  { icon: "briefcase", title: "Flexible Engagement", text: "Permanent, freelance and project-based hiring to match how your business actually works." },
+
 ];
 
 export const MISSION_VISION = [

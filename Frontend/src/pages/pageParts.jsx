@@ -7,7 +7,7 @@ import { scrollToId } from "../utils/scroll";
 
 const heroImg="/images/H1.png";
 
-export function Hero({eyebrow="RECRUITMENT & TALENT SOLUTIONS | INDIA & INTERNATIONAL", title, text, image=heroImg, children}) {
+export function Hero({eyebrow="RECRUITMENT & TALENT SOLUTIONS | INDIA", title, text, image=heroImg, children}) {
   const ref = useRef(null);
   const next = () => {
     const el = ref.current && ref.current.nextElementSibling;
