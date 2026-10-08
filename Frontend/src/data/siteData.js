@@ -1,10 +1,12 @@
 import Event from "/images/Event.png";
+import Event2 from "/images/Event2.png";
 import Resort from "/images/Hosp.jpeg"
 import Hosp from "/images/Ho1.png"
 import PRCo from "/images/PR1.png"
+import PRCo2 from "/images/PR2.png"
 import Travel from "/images/Travel1.png"
 import Aviation from "/images/Avi.jpeg"
-import Aviation2 from "/images/Aviation2.png"
+import Aviation2 from "/images/Avi2.png"
 import Travel1 from "/images/Travel2.png"
 
 export const COMPANY = {
@@ -77,12 +79,12 @@ export const INDUSTRIESI = [
   {
     title: "Events",
     desc: "Professionals across event operations, production, client servicing, sales and management.",
-    image: Event,
+    image: Event2,
   },
   {
     title: "PR & Corporate Communications",
     desc: "Recruitment for communications, public relations, content, media and corporate affairs.",
-    image: PRCo,
+    image: PRCo2,
   },
 ];
 
