@@ -35,27 +35,27 @@ export const NAV_ITEMS = [
 export const INDUSTRIES = [
   {
     title: "Travel & Tourism",
-    desc: "Recruitment support for travel businesses, tour operators, destination services and corporate travel teams.",
+    desc: "We provide recruitment support for travel businesses, tour operators, destination services and corporate travel teams.",
     image: Travel,
   },
   {
     title: "Hospitality",
-    desc: "People-focused hiring across hotels, resorts, hospitality operations and guest experience.",
+    desc: "People-focused hiring across hotels, resorts, hospitality operations and guest experience, supported by our team.",
     image: Resort,
   },
   {
     title: "Aviation",
-    desc: "Talent solutions for relevant aviation, customer experience, commercial and support functions.",
+    desc: "Talent solutions for relevant aviation, customer experience, commercial and support functions, with Flyhirre supporting specialised hiring needs.",
     image: Aviation,
   },
   {
     title: "Events",
-    desc: "Professionals across event operations, production, client servicing, sales and management.",
+    desc: "Our team connects professionals across event operations, production, client servicing, sales and management.",
     image: Event,
   },
   {
     title: "PR & Corporate Communications",
-    desc: "Recruitment for communications, public relations, content, media and corporate affairs.",
+    desc: "Recruitment for communications, public relations, content, media and corporate affairs, delivered with a focused approach.",
     image: PRCo,
   },
 ];
@@ -63,27 +63,27 @@ export const INDUSTRIES = [
 export const INDUSTRIESI = [
   {
     title: "Travel & Tourism",
-    desc: "Recruitment support for travel businesses, tour operators, destination services and corporate travel teams.",
+    desc: "Flyhirre supports travel businesses, tour operators, destination services and corporate travel teams with professionals across operational and corporate functions.",
     image: Travel1,
   },
   {
     title: "Hospitality",
-    desc: "People-focused hiring across hotels, resorts, hospitality operations and guest experience.",
+    desc: "We support hotels, resorts and hospitality businesses with people across operations, guest experience, commercial and corporate functions.",
     image: Hosp,
   },
   {
     title: "Aviation",
-    desc: "Talent solutions for relevant aviation, customer experience, commercial and support functions.",
+    desc: "Our team supports relevant aviation requirements across customer experience, commercial, operational and corporate support functions.",
     image: Aviation2,
   },
   {
     title: "Events",
-    desc: "Professionals across event operations, production, client servicing, sales and management.",
+    desc: "Flyhirre recruits professionals across event operations, production, client servicing, sales, management and related corporate functions.",
     image: Event2,
   },
   {
     title: "PR & Corporate Communications",
-    desc: "Recruitment for communications, public relations, content, media and corporate affairs.",
+    desc: "We support organisations seeking professionals across public relations, corporate communications, content, media, brand and corporate affairs.",
     image: PRCo2,
   },
 ];

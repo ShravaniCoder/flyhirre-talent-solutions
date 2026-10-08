@@ -15,7 +15,7 @@ import Free from "/images/Free1.png"
 export function Home(){
  return <><SEO {...SEO_DATA.home}/><Hero title="Connecting Exceptional Talent with Ambitious Businesses." text="We connect businesses with talented professionals through focused recruitment solutions across Travel & Tourism, Hospitality, Aviation, Events, PR and Corporate Communications.">
    <div className="actions"><Link className="btn gold" to="/employers">Hire Talent <span>→</span></Link><Link className="btn outline" to="/candidates">Explore Opportunities <span>→</span></Link></div>
-   <div className="hero-pills"><span>◉ Permanent Recruitment</span><span>◉ Freelance Recruitment</span><span>◉ India & International</span></div>
+   <div className="hero-pills"><span>◉ Permanent Recruitment</span><span>◉ Freelance Recruitment</span><span>◉ India </span></div>
  </Hero>
  <StatsBand overlap items={D.STATS}/>
  <section className="section cream"><div className="container"><SectionHeading eyebrow="SPECIALIST INDUSTRIES" title="Talent Across High-Impact Industries" text="Our team understands the people and functions behind service-led, communication-driven industries."/><div className="industry-grid">{INDUSTRIES.map(x=><IndustryCard key={x.title} {...x}/>)}</div></div></section>
