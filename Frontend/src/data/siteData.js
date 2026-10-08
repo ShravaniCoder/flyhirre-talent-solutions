@@ -173,9 +173,9 @@ export const PROCESS_COMMITMENTS = [
 
 export const INDIA_SUPPORT = [
   { icon: "globe", title: "Pan-India Sourcing", text: "We source across major business and employment markets depending on the role." },
-  { icon: "users", title: "Remote-Friendly Collaboration", text: "Briefs, shortlists and interview coordination are handled efficiently without a local office." },
-  { icon: "clock", title: "Mumbai Base", text: "A central team in Mumbai keeps communication consistent for every location." },
-  { icon: "briefcase", title: "Relocation Aware", text: "We consider candidate mobility and relocation where the role requires it." },
+  { icon: "users", title: "Remote-Friendly Collaboration", text: "Briefs, shortlists and interview coordination are handled efficiently by our team across Mumbai, Pune, Goa, Bengaluru without a local office." },
+  { icon: "clock", title: "Mumbai Base", text: "Flyhirre's  central team in Mumbai keeps communication consistent across every service location." },
+  { icon: "briefcase", title: "Relocation Aware", text: "We consider candidate mobility and relocation where the role requires it across Mumbai, Pune, Goa and Bengaluru." },
 ];
 
 export const INDUSTRY_ROLES = [
