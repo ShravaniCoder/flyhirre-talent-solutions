@@ -9,7 +9,7 @@ const industries = [
   "Travel & Tourism",
   "Hospitality",
   "Aviation",
-  "Events & MICE",
+  "Events ",
   "PR & Corporate Communications",
   "Other",
 ];

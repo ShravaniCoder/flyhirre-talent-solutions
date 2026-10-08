@@ -35,8 +35,8 @@ export default function App(){
 
   if(!user) return <Login onLogin={(u)=>setUser(u)} />;
 
-  const filteredCandidates = useMemo(()=>candidates.filter(x=>`${x.fullName} ${x.email} ${x.phone} ${x.currentRole} ${x.industry}`.toLowerCase().includes(search.toLowerCase())),[candidates,search]);
-  const filteredEmployers = useMemo(()=>employers.filter(x=>`${x.companyName} ${x.fullName} ${x.workEmail} ${x.industry}`.toLowerCase().includes(search.toLowerCase())),[employers,search]);
+  const filteredCandidates = useMemo(()=>candidates.filter(x=>`${x.fullName} ${x.email} ${x.phone} ${x.currentRole} ${x.candidateRole} ${x.industry}`.toLowerCase().includes(search.toLowerCase())),[candidates,search]);
+  const filteredEmployers = useMemo(()=>employers.filter(x=>`${x.companyName} ${x.fullName} ${x.workEmail} ${x.industry} ${x.hiringRole} ${x.hiringFunction}`.toLowerCase().includes(search.toLowerCase())),[employers,search]);
   const filteredContacts = useMemo(()=>contacts.filter(x=>`${x.name} ${x.email} ${x.phone} ${x.subject} ${x.message}`.toLowerCase().includes(search.toLowerCase())),[contacts,search]);
 
   async function updateCandidate(id, patch){ const result=await api(`/candidates/${id}`,{method:"PATCH",body:JSON.stringify(patch)}); setCandidates(items=>items.map(x=>x._id===id?result.data:x)); setSelected(result.data); notify("Candidate updated successfully"); }
