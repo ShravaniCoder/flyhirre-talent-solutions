@@ -1,8 +1,11 @@
 import Event from "/images/Event.png";
 import Resort from "/images/Hosp.jpeg"
-import PRCo from "/images/PR.png"
-import Travel from "/images/Travel.png"
+import Hosp from "/images/Ho1.png"
+import PRCo from "/images/PR1.png"
+import Travel from "/images/Travel1.png"
 import Aviation from "/images/Avi.jpeg"
+import Aviation2 from "/images/Aviation2.png"
+import Travel1 from "/images/Travel2.png"
 
 export const COMPANY = {
   name: "Flyhirre Recruitment & Talent Solutions",
@@ -42,6 +45,34 @@ export const INDUSTRIES = [
     title: "Aviation",
     desc: "Talent solutions for relevant aviation, customer experience, commercial and support functions.",
     image: Aviation,
+  },
+  {
+    title: "Events",
+    desc: "Professionals across event operations, production, client servicing, sales and management.",
+    image: Event,
+  },
+  {
+    title: "PR & Corporate Communications",
+    desc: "Recruitment for communications, public relations, content, media and corporate affairs.",
+    image: PRCo,
+  },
+];
+
+export const INDUSTRIESI = [
+  {
+    title: "Travel & Tourism",
+    desc: "Recruitment support for travel businesses, tour operators, destination services and corporate travel teams.",
+    image: Travel1,
+  },
+  {
+    title: "Hospitality",
+    desc: "People-focused hiring across hotels, resorts, hospitality operations and guest experience.",
+    image: Hosp,
+  },
+  {
+    title: "Aviation",
+    desc: "Talent solutions for relevant aviation, customer experience, commercial and support functions.",
+    image: Aviation2,
   },
   {
     title: "Events",
@@ -147,12 +178,12 @@ export const MISSION_VISION = [
 ];
 
 export const EMPLOYER_BENEFITS = [
-  { icon: "target", title: "Relevant Shortlists", text: "Profiles are screened against your role, experience level and hiring timeline." },
-  { icon: "chat", title: "Dedicated Support", text: "A recruitment contact who understands your requirement from the first conversation." },
-  { icon: "briefcase", title: "Permanent & Freelance", text: "One partner for full-time teams, contract specialists and short-term assignments." },
-  { icon: "shield", title: "Verified Employers", text: "Company verification protects candidates and keeps the process trustworthy." },
+  { icon: "target", title: "Relevant Shortlists", text: "Our team screens profiles against your role, experience level and hiring timeline." },
+  { icon: "chat", title: "Dedicated Support", text: "A Flyhirre recruitment contact who understands your requirement from the first conversation." },
+  { icon: "briefcase", title: "Permanent & Freelance", text: "We provide one partner for full-time teams, contract specialists and short-term assignments." },
+  { icon: "shield", title: "Verified Employers", text: "Our company verification protects candidates and keeps the process trustworthy." },
   { icon: "clock", title: "Interview Coordination", text: "We help schedule and coordinate interviews between you and shortlisted candidates." },
-  { icon: "globe", title: "Wider Reach", text: "Access professionals across India's major markets, and internationally where relevant." },
+  { icon: "globe", title: "Wider Reach", text: "With Flyhirre, access professionals across India’s major markets, and internationally where relevant." },
 ];
 
 export const CANDIDATE_TIPS = [
@@ -165,10 +196,10 @@ export const CANDIDATE_TIPS = [
 ];
 
 export const PROCESS_COMMITMENTS = [
-  { icon: "chat", title: "Clear Updates", text: "You are kept informed as the requirement moves from one stage to the next." },
-  { icon: "target", title: "Relevance Over Volume", text: "A smaller set of well-matched profiles rather than a long list of maybes." },
-  { icon: "shield", title: "Confidentiality", text: "Requirements and candidate details are handled with care and discretion." },
-  { icon: "users", title: "Respect for Both Sides", text: "Employers and candidates are both treated professionally throughout." },
+  { icon: "chat", title: "Clear Updates", text: "We keep you informed as the requirement moves from one stage to the next." },
+  { icon: "target", title: "Relevance Over Volume", text: "Our team focuses on a smaller set of well-matched profiles rather than a long list of maybes." },
+  { icon: "shield", title: "Confidentiality", text: "At Flyhirre, requirements and candidate details are handled with care and discretion." },
+  { icon: "users", title: "Respect for Both Sides", text: "We ensure employers and candidates are both treated professionally throughout." },
 ];
 
 export const INDIA_SUPPORT = [
