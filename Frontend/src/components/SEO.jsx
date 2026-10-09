@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet-async";
 import { COMPANY } from "../data/siteData";
 
 export default function SEO({ title, description, path = "" }) {
-  const url = `https://www.nexoratalentsolutions.com${path}`;
+  const url = `https://flyhirre.com${path}`;
   return (
     <Helmet>
       <title>{title}</title>

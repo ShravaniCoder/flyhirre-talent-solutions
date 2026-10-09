@@ -10,8 +10,7 @@ import { WhyGrid, FAQ } from "../components/Extras";
 const CITIES = [
   "Mumbai",
  
-   "Goa",
-  "Delhi NCR",
+ 
  
  
 ];
@@ -22,16 +21,16 @@ export function India() {
       <SEO {...SEO_DATA.india} path="/india-coverage" />
 
       <Hero
-        title="Mumbai-Based. Serving Mumbai, Goa, & Delhi NCR."
-        text="We are based in Mumbai and support employers and professionals across Mumbai, Goa, & Delhi NCR, depending on the role and recruitment requirement."
-        image="/images/Mum.jpeg"
+        title="Mumbai-Based. Serving Mumbai."
+        text="We are based in Mumbai and support employers and professionals across Mumbai depending on the role and recruitment requirement."
+        image="/images/Mum.png"
       />
 
       <section className="section cream">
         <div className="container two-col">
           <div>
             <SectionHeading
-              eyebrow="INDIA COVERAGE"
+              eyebrow="Mumbai COVERAGE"
               title="Local understanding, wider reach."
               text="Our team can work with recruitment requirements across major business and employment markets in India without implying physical offices in every location."
             />
@@ -43,7 +42,7 @@ export function India() {
           </div>
 
           <div className="map-card">
-            <div className="india-map">INDIA</div>
+            <div className="india-map">MUMBAI</div>
             <p>
               Major markets can be supported based on the specific role,
               employer requirement and candidate availability.
@@ -60,7 +59,7 @@ export function India() {
       <FAQ tone="cream" items={D.FAQS.india} />
 
       <CTA
-        title="Hiring across India?"
+        title="Hiring across Mumbai?"
         text="Tell us where you need talent and our team will discuss the requirement."
       />
     </>

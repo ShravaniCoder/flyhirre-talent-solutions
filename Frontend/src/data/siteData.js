@@ -12,7 +12,7 @@ import Travel1 from "/images/Travel2.png"
 export const COMPANY = {
   name: "Flyhirre Recruitment & Talent Solutions",
   shortName: "Flyhirre",
-  tagline: "Recruitment & Talent Solutions | India ",
+  tagline: "Recruitment & Talent Solutions | Mumbai",
   email: "connect@flyhirre.com",
   phone: "+91 90000 00000",
   whatsapp: "919000000000",
@@ -160,14 +160,14 @@ export const STATS = [
   { value: 5, suffix: "", label: "Specialist industries" },
   { value: 8, suffix: "", label: "Business functions covered" },
   { value: 2, suffix: "", label: "Hiring models: permanent & freelance" },
-  { value: 3, suffix: "+", label: "Indian markets supported -  Mumbai, Goa, Delhi NCR" },
+  { value: 3, suffix: "+", label: "Indian markets supported -  Mumbai" },
 ];
 
 export const WHY_US = [
   { icon: "target", title: "Industry Focus", text: "We concentrate on travel, hospitality, aviation, events and communications, so briefs are understood quickly." },
   { icon: "users", title: "People-First Approach", text: "Every candidate and every employer is treated by our team as a conversation, not a database entry." },
   { icon: "shield", title: "Careful Screening", text: "At Flyhirre, Experience, skills, availability and agreed criteria are reviewed before any profile is shared." },
-  { icon: "globe", title: "India", text: "A Flyhirre based across Mumbai, Goa and Delhi NCR with an international outlook for roles that cross borders and markets." },
+  { icon: "globe", title: "India", text: "A Flyhirre based across Mumbai with an international outlook for roles that cross borders and markets." },
    { icon: "briefcase", title: "Flexible Engagement", text: "Permanent, freelance and project-based hiring to match how your business actually works." },
   { icon: "clock", title: "Clear Communication", text: "Regular updates at each stage so employers and candidates always know where things stand." },
 
@@ -205,7 +205,7 @@ export const PROCESS_COMMITMENTS = [
 ];
 
 export const INDIA_SUPPORT = [
-  { icon: "globe", title: "Three Priority Markets", text: "Our team supports recruitment across Mumbai, Goa and Delhi NCR connecting employers with relevant talent based on their hiring requirements." },
+  { icon: "globe", title: "Three Priority Markets", text: "Our team supports recruitment across Mumbai connecting employers with relevant talent based on their hiring requirements." },
   { icon: "users", title: "Remote-Friendly Collaboration", text: "Briefs, shortlists and interview coordination are handled efficiently by our team across Mumbai, Pune, Goa, Bengaluru without a local office." },
   { icon: "clock", title: "Mumbai Base", text: "Flyhirre's  central team in Mumbai keeps communication consistent across every service location." },
   { icon: "briefcase", title: "Relocation Aware", text: "We consider candidate mobility and relocation where the role requires it across Mumbai, Pune, Goa and Bengaluru." },
@@ -240,7 +240,7 @@ export const FAQS = {
   home: [
     ["What types of recruitment do you offer?", "We support permanent (full-time) recruitment and freelance recruitment, including contract, project-based and temporary assignments."],
     ["Which industries do you specialise in?", "Travel & Tourism, Hospitality, Aviation, Events, and PR & Corporate Communications, along with core corporate functions."],
-    ["Do you work only in Mumbai?", "Flyhirre is Mumbai-based, with recruitment services focused on Mumbai, Goa and Delhi NCR. Our team works remotely to coordinate recruitment requirements, candidate shortlisting and interviews across these markets."],
+    ["Do you work only in Mumbai?", "Flyhirre is Mumbai-based, with recruitment services focused on Mumbai. Our team works remotely to coordinate recruitment requirements, candidate shortlisting and interviews across these markets."],
     ["Is there a cost for candidates?", "Please contact our team to discuss how we work with candidates and employers. We are happy to explain our approach clearly."],
   ],
   solutions: [
@@ -261,7 +261,7 @@ export const FAQS = {
     ["Which file formats can I upload?", "Standard CV formats such as PDF and Word documents are accepted. Check the upload field for the latest guidance."],
   ],
   india: [
-    ["Do you have offices in every city?", "No. We are Mumbai-based and support requirements across India, depending on the role and availability."],
+    ["Do you have offices in every city?", "No. We are Mumbai-based and support requirements across Mumbai, depending on the role and availability."],
    ["Which cities do you support?", "Major markets including Mumbai, Delhi NCR, Bengaluru, Goa, Hyderabad, Pune, Chennai, Kolkata and Ahmedabad, among others."],
     ["Can you help with relocation-based roles?", "We consider candidate mobility where the role requires it and discuss it openly with both sides."],
   ],
