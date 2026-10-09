@@ -9,7 +9,7 @@ import { WhyGrid, FAQ } from "../components/Extras";
 
 const CITIES = [
   "Mumbai",
-  "Pune",
+ 
    "Goa",
   "Delhi NCR",
  
@@ -22,8 +22,8 @@ export function India() {
       <SEO {...SEO_DATA.india} path="/india-coverage" />
 
       <Hero
-        title="Mumbai-Based. Serving Mumbai, Pune, Goa, & Delhi NCR."
-        text="We are based in Mumbai and support employers and professionals across Mumbai, Pune, Goa, & Delhi NCR, depending on the role and recruitment requirement."
+        title="Mumbai-Based. Serving Mumbai, Goa, & Delhi NCR."
+        text="We are based in Mumbai and support employers and professionals across Mumbai, Goa, & Delhi NCR, depending on the role and recruitment requirement."
         image="/images/Mum.jpeg"
       />
 
