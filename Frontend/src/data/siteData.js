@@ -16,7 +16,7 @@ export const COMPANY = {
   email: "hello@nexoratalentsolutions.com",
   phone: "+91 90000 00000",
   whatsapp: "919000000000",
-  location: "Mumbai, Maharashtra, India",
+  location: "1311, Marathon Millennium, LBS Road, Beside Nirmal Lifestyle Mall, Mulund West, Mumbai - 400080",
 };
 
 export const NAV_ITEMS = [

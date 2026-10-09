@@ -1,13 +1,45 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.nexoratalentsolutions.com/</loc></url>
-  <url><loc>https://www.nexoratalentsolutions.com/about</loc></url>
-  <url><loc>https://www.nexoratalentsolutions.com/recruitment-solutions</loc></url>
-  <url><loc>https://www.nexoratalentsolutions.com/industries</loc></url>
-  <url><loc>https://www.nexoratalentsolutions.com/corporate-functions</loc></url>
-  <url><loc>https://www.nexoratalentsolutions.com/employers</loc></url>
-  <url><loc>https://www.nexoratalentsolutions.com/candidates</loc></url>
-  <url><loc>https://www.nexoratalentsolutions.com/recruitment-process</loc></url>
-  <url><loc>https://www.nexoratalentsolutions.com/india-coverage</loc></url>
-  <url><loc>https://www.nexoratalentsolutions.com/contact</loc></url>
+
+  <url>
+    <loc>https://flyhirre.com/</loc>
+  </url>
+
+  <url>
+    <loc>https://flyhirre.com/about</loc>
+  </url>
+
+  <url>
+    <loc>https://flyhirre.com/recruitment-solutions</loc>
+  </url>
+
+  <url>
+    <loc>https://flyhirre.com/industries</loc>
+  </url>
+
+  <url>
+    <loc>https://flyhirre.com/corporate-functions</loc>
+  </url>
+
+  <url>
+    <loc>https://flyhirre.com/employers</loc>
+  </url>
+
+  <url>
+    <loc>https://flyhirre.com/candidates</loc>
+  </url>
+
+  <url>
+    <loc>https://flyhirre.com/recruitment-process</loc>
+  </url>
+
+  <url>
+    <loc>https://flyhirre.com/india-coverage</loc>
+  </url>
+
+  <url>
+    <loc>https://flyhirre.com/contact</loc>
+  </url>
+
 </urlset>
