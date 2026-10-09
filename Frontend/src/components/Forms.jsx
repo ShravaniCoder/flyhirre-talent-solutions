@@ -9,7 +9,7 @@ const industries = [
   "Travel & Tourism",
   "Hospitality",
   "Aviation",
-  "Events ",
+  "Events",
   "PR & Corporate Communications",
   "Other",
 ];
@@ -28,7 +28,8 @@ const industryRoles = {
     "MICE & Destination Management",
     "Travel Sales & Business Development",
     "Marketing & Brand",
-    "HR & Finance",
+    "HR ",
+    "Finance",
     "Operations & Administration",
   ],
 
@@ -36,11 +37,12 @@ const industryRoles = {
     "Hotel Operations",
     "Front Office & Guest Relations",
     "Food & Beverage",
-    "Housekeeping",
+   
     "Culinary & Chef Roles",
     "Sales & Business Development",
     "Marketing & Brand",
-    "HR & Finance",
+    "HR",
+    "Finance",
     "Revenue Management",
     "Operations & Administration",
   ],
@@ -57,11 +59,12 @@ const industryRoles = {
     "Aviation Customer Experience",
     "Aviation Safety & Compliance",
     "Aviation Marketing & Communications",
-    "HR & Finance",
+    "HR",
+    "Finance",
     "Business Development & Administration",
   ],
 
-  "Events & MICE": [
+  "Events": [
     "Event Management",
     "Event Operations",
     "Event Production",
@@ -71,7 +74,8 @@ const industryRoles = {
     "MICE Operations",
     "Sales & Business Development",
     "Marketing & Communications",
-    "HR, Finance & Administration",
+    "HR",
+    "Finance & Administration"
   ],
 
   "PR & Corporate Communications": [
@@ -84,7 +88,8 @@ const industryRoles = {
     "Social Media",
     "Client Servicing",
     "Account Management",
-    "Marketing & Business Development",
+    "Marketing ",
+    "Business Development"
   ],
 
   Other: [
