@@ -185,7 +185,7 @@ export const EMPLOYER_BENEFITS = [
   { icon: "briefcase", title: "Permanent & Freelance", text: "We provide one partner for full-time teams, contract specialists and short-term assignments." },
   { icon: "shield", title: "Verified Employers", text: "Our company verification protects candidates and keeps the process trustworthy." },
   { icon: "clock", title: "Interview Coordination", text: "We help schedule and coordinate interviews between you and shortlisted candidates." },
-  { icon: "globe", title: "Wider Reach", text: "With Flyhirre, access professionals across India’s major markets, and internationally where relevant." },
+  { icon: "globe", title: "Wider Reach", text: "With Flyhirre, access professionals across India’s major markets." },
 ];
 
 export const CANDIDATE_TIPS = [
@@ -240,7 +240,7 @@ export const FAQS = {
   home: [
     ["What types of recruitment do you offer?", "We support permanent (full-time) recruitment and freelance recruitment, including contract, project-based and temporary assignments."],
     ["Which industries do you specialise in?", "Travel & Tourism, Hospitality, Aviation, Events, and PR & Corporate Communications, along with core corporate functions."],
-    ["Do you work only in Mumbai?", "We are Mumbai-based and support employers and professionals across India, as well as international requirements depending on the role."],
+    ["Do you work only in Mumbai?", "Flyhirre is Mumbai-based, with recruitment services focused on Mumbai, Goa and Delhi NCR. Our team works remotely to coordinate recruitment requirements, candidate shortlisting and interviews across these markets."],
     ["Is there a cost for candidates?", "Please contact our team to discuss how we work with candidates and employers. We are happy to explain our approach clearly."],
   ],
   solutions: [

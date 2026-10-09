@@ -140,7 +140,7 @@ export default function Layout({ children }) {
             </Link>
 
             <p>
-              Recruitment &amp; Talent Solutions | India &amp; International
+              Recruitment &amp; Talent Solutions | Mumbai · Goa · Delhi NCR
             </p>
 
             <p className="muted">
