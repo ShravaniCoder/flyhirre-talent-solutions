@@ -66,7 +66,7 @@ export default function Layout({ children }) {
             aria-label="Flyhirre Home"
           >
             <img
-              src="/images/FlyhirreL.png"
+              src="/images/FlyhirreT.png"
               alt="Flyhirre - Recruitment and Talent Solutions"
               className="brand-logo"
             />

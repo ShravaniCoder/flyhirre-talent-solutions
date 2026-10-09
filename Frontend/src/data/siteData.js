@@ -167,7 +167,7 @@ export const WHY_US = [
   { icon: "target", title: "Industry Focus", text: "We concentrate on travel, hospitality, aviation, events and communications, so briefs are understood quickly." },
   { icon: "users", title: "People-First Approach", text: "Every candidate and every employer is treated by our team as a conversation, not a database entry." },
   { icon: "shield", title: "Careful Screening", text: "At Flyhirre, Experience, skills, availability and agreed criteria are reviewed before any profile is shared." },
-  { icon: "globe", title: "India", text: "A Flyhirre based across Mumbai, Benglore, Goa and Delhi, with an international outlook for roles that cross borders and markets." },
+  { icon: "globe", title: "India", text: "A Flyhirre based across Mumbai, Goa and Delhi NCR with an international outlook for roles that cross borders and markets." },
    { icon: "briefcase", title: "Flexible Engagement", text: "Permanent, freelance and project-based hiring to match how your business actually works." },
   { icon: "clock", title: "Clear Communication", text: "Regular updates at each stage so employers and candidates always know where things stand." },
 
@@ -205,7 +205,7 @@ export const PROCESS_COMMITMENTS = [
 ];
 
 export const INDIA_SUPPORT = [
-  { icon: "globe", title: "Pan-India Sourcing", text: "We source across major business and employment markets depending on the role." },
+  { icon: "globe", title: "Three Priority Markets", text: "Our team supports recruitment across Mumbai, Goa and Delhi NCR connecting employers with relevant talent based on their hiring requirements." },
   { icon: "users", title: "Remote-Friendly Collaboration", text: "Briefs, shortlists and interview coordination are handled efficiently by our team across Mumbai, Pune, Goa, Bengaluru without a local office." },
   { icon: "clock", title: "Mumbai Base", text: "Flyhirre's  central team in Mumbai keeps communication consistent across every service location." },
   { icon: "briefcase", title: "Relocation Aware", text: "We consider candidate mobility and relocation where the role requires it across Mumbai, Pune, Goa and Bengaluru." },
