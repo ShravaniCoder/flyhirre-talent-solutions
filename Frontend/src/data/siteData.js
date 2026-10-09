@@ -13,7 +13,7 @@ export const COMPANY = {
   name: "Flyhirre Recruitment & Talent Solutions",
   shortName: "Flyhirre",
   tagline: "Recruitment & Talent Solutions | India ",
-  email: "hello@nexoratalentsolutions.com",
+  email: "connect@flyhirre.com",
   phone: "+91 90000 00000",
   whatsapp: "919000000000",
   location: "1311, Marathon Millennium, LBS Road, Beside Nirmal Lifestyle Mall, Mulund West, Mumbai - 400080",
