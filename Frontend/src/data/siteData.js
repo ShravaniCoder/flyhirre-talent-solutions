@@ -160,7 +160,7 @@ export const STATS = [
   { value: 5, suffix: "", label: "Specialist industries" },
   { value: 8, suffix: "", label: "Business functions covered" },
   { value: 2, suffix: "", label: "Hiring models: permanent & freelance" },
-  { value: 1, suffix: "+", label: "Indian markets supported -  Mumbai" },
+  { value: 1, suffix: "", label: "Indian markets supported -  Mumbai" },
 ];
 
 export const WHY_US = [
