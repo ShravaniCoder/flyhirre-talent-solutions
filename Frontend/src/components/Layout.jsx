@@ -171,8 +171,8 @@ export default function Layout({ children }) {
               Process
             </Link>
 
-            <Link to="/india-coverage">
-              India Coverage
+            <Link to="/mumbai-coverage">
+              Mumbai Coverage
             </Link>
           </div>
 

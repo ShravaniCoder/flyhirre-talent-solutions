@@ -28,7 +28,7 @@ export const NAV_ITEMS = [
   ["Employers", "/employers"],
   ["Candidates", "/candidates"],
   ["Process", "/recruitment-process"],
-  ["India", "/india-coverage"],
+  ["Mumbai", "/mumbai-coverage"],
   ["Contact", "/contact"],
 ];
 
@@ -160,7 +160,7 @@ export const STATS = [
   { value: 5, suffix: "", label: "Specialist industries" },
   { value: 8, suffix: "", label: "Business functions covered" },
   { value: 2, suffix: "", label: "Hiring models: permanent & freelance" },
-  { value: 3, suffix: "+", label: "Indian markets supported -  Mumbai" },
+  { value: 1, suffix: "+", label: "Indian markets supported -  Mumbai" },
 ];
 
 export const WHY_US = [
@@ -205,7 +205,7 @@ export const PROCESS_COMMITMENTS = [
 ];
 
 export const INDIA_SUPPORT = [
-  { icon: "globe", title: "Three Priority Markets", text: "Our team supports recruitment across Mumbai connecting employers with relevant talent based on their hiring requirements." },
+  { icon: "globe", title: "Priority Market", text: "Our team supports recruitment across Mumbai connecting employers with relevant talent based on their hiring requirements." },
   { icon: "users", title: "Remote-Friendly Collaboration", text: "Briefs, shortlists and interview coordination are handled efficiently by our team across Mumbai, Pune, Goa, Bengaluru without a local office." },
   { icon: "clock", title: "Mumbai Base", text: "Flyhirre's  central team in Mumbai keeps communication consistent across every service location." },
   { icon: "briefcase", title: "Relocation Aware", text: "We consider candidate mobility and relocation where the role requires it across Mumbai." },
@@ -262,7 +262,7 @@ export const FAQS = {
   ],
   india: [
     ["Do you have offices in every city?", "No. We are Mumbai-based and support requirements across Mumbai, depending on the role and availability."],
-   ["Which cities do you support?", "Major markets including Mumbai, Delhi NCR, Bengaluru, Goa, Hyderabad, Pune, Chennai, Kolkata and Ahmedabad, among others."],
+   ["Which cities do you support?", "Major markets including Mumbai among others."],
     ["Can you help with relocation-based roles?", "We consider candidate mobility where the role requires it and discuss it openly with both sides."],
   ],
   contact: [
