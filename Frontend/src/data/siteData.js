@@ -14,8 +14,8 @@ export const COMPANY = {
   shortName: "Flyhirre",
   tagline: "Recruitment & Talent Solutions | Mumbai",
   email: "connect@flyhirre.com",
-  phone: "+91 90000 00000",
-  whatsapp: "919000000000",
+  phone: "+91 77388 98048",
+  whatsapp: "917738898048",
   location: "1311, Marathon Millennium, LBS Road, Beside Nirmal Lifestyle Mall, Mulund West, Mumbai - 400080",
 };
 
