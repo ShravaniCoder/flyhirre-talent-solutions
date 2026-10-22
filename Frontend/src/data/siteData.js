@@ -110,12 +110,12 @@ export const PROCESS = [
 
 export const SEO = {
   home: {
-    title: "Flyhirre Recruitment & Talent Solutions | Recruitment & Talent Solutions",
-    description: "Flyhirre Recruitment & Talent Solutions connects employers and professionals through permanent and freelance recruitment across Travel, Hospitality, Aviation, Events and Communications.",
+    title: "Find the Right Talent with Flyhirre Recruitment & Talent Solutions",
+    description: "Flyhirre provides reliable recruitment and talent acquisition solutions to help businesses find, attract, and hire the right talent.",
   },
   about: {
     title: "About Flyhirre Recruitment & Talent Solutions | Mumbai Recruitment Company",
-    description: "Learn about our people-first recruitment approach, industries, values and talent solutions from our Mumbai-based team.",
+    description: "Learn about Flyhirre, a recruitment and talent solutions company helping businesses connect with skilled professionals through effective hiring strategies and reliable recruitment services.",
   },
   solutions: {
     title: "Recruitment Solutions | Permanent & Freelance Recruitment",
@@ -130,8 +130,8 @@ export const SEO = {
     description: "Recruitment across Sales, Marketing, HR, Operations, Finance, Administration, Customer Experience and Management.",
   },
   employers: {
-    title: "For Employers | Hire Talent | Flyhirre Recruitment & Talent Solutions",
-    description: "Submit your hiring requirement and work with our recruitment team to identify relevant professionals.",
+    title: "Employer Recruitment Solutions & Hiring Services | Flyhirre Recruitment & Talent Solutions",
+    description: "Partner with Flyhirre to find qualified candidates through tailored recruitment and talent acquisition solutions that simplify hiring and help your business grow.",
   },
   candidates: {
     title: "For Candidates | Submit Your CV | Flyhirre Recruitment & Talent Solutions",
